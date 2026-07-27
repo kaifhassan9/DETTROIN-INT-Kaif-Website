@@ -28,7 +28,7 @@ export default function Hero({ onOpenAdmissionModal, onOpenVirtualTour }) {
   return (
     <section className="relative min-h-screen flex flex-col justify-between pt-28 pb-12 bg-slate-950">
       
-      {/* Background Images with Overlay */}
+      /* Background Images with Overlay */
       {heroSlides.map((slide, index) => (
         <div
           key={slide.id}
